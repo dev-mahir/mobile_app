@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+li {
+  list-style: none;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #232323;
+  line-height: 55px;
+}
+.subtitle {
+  color: #777;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+p {
+  color: #464646;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.p-bold {
+  color: #232323;
+  font-weight: 700;
+}
+
+.bg-primary {
+  background: #efefef;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: fixed;
+  width: 100%;
+}
+
+header .logo {
+  font-size: 26px;
+  color: #232323;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+header .logo img {
+  width: 40px;
+}
+
+header nav a {
+  font-size: 18px;
+  color: #232323;
+  font-weight: 500;
+  padding: 30px 20px;
+  height: 100%;
+  display: inline-block;
+}
+header nav a:hover {
+  color: #612ebf;
+}
+
+header nav a:hover {
+  background-color: white;
+}
+
+header .socail-links {
+  display: flex;
+  column-gap: 10px;
+}
+
+header .socail-links a {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #232323;
+}
+
+header .socail-links a:hover {
+  color: #612ebf;
+  border-radius: 50%;
+}
+
+
+
+
+
+
